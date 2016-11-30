@@ -1,0 +1,279 @@
+/*large desktop*/
+@media only screen and (max-width: 1680px) {
+	.jumbotron{
+		margin-top: 5em;
+		height: 24em;
+	}
+	.projectsC{
+    height: 20em;
+    width: 20em;
+    margin-top: 6em;
+    margin-left: 4.5em;
+	}
+}
+/*ipad*/
+@media only screen and (max-width: 1024px) {
+	.mxP{
+    padding: 0 0 0 9em;
+	}
+	.jumbotron{
+		margin-top: -0.5em;
+		height: 30em;
+		width: 80%;
+	}
+	.jumbotext{
+		font-size: 9px;
+	}
+	.projectsC{
+    height: 15em;
+    width: 15em;
+    margin-top: 8.5em;
+    margin-left: 4em;
+	}
+	.icon{
+    width: 6em;
+    }
+    .icontx{
+    	font-size: 13px;
+    }
+    .skill{
+    	margin-left: 25em;
+	}
+	.trans{
+    margin-left: 14em;
+	}
+}
+/*windows phone*/
+@media only screen and (max-width: 768px) {
+	.mxP{
+    padding: 1em 0 0 3em;
+	}
+	.icon{
+    width: 3em;
+    margin-right: 2.5em;
+    }
+    .icontx{
+    	font-size: 12px;
+    }
+    .pl{
+    padding-left: 0.8em;
+	}
+	.jumbotext{
+		font-size: 15.3px!important;
+	}
+	.projectsC{
+    height: 15em;
+    width: 15em;
+    margin-top: 8.5em;
+    margin-left: 0.5em;
+	}
+	.skill{
+    	margin-left: 16em;
+	}
+	.footer{
+		margin-left: 1em;
+		font-size: 12px;
+	}
+	.trans{
+    margin-left: 8em;
+	}
+}
+	/*iphone*/
+@media only screen and (max-width: 640px) {
+	.mxP{
+    padding: 4em 0 0 3em;
+    color: #1a1a1a;
+	}
+	.second{
+		margin-top: 4em;
+		color:  #993366;
+		font-size: 30px;
+	}
+	.web{
+		font-size: 20px;
+		color: #993366;
+	}
+	.icon{
+    width: 3em;
+    margin-right: 2.5em;
+    }
+    .icontx{
+    	font-size: 12px;
+    }
+    .pl{
+    padding-left: 0.8em;
+	}
+	.jumbotron{
+		margin-top: -0.5em;
+		margin-left: -0.5em;
+		height: 10em;
+		width: 103%;
+		padding: 0 2em 0 3em;
+	}
+	.jumbotext{
+		font-size: 15.3px!important;
+	}
+	.projectsC{
+    height: 7.5em;
+    width: 7.5em;
+    margin-top: 2em;
+    margin-left: 17em;
+	}
+	.skill{
+    	margin-left: 6em;
+	}
+	.footer{
+		margin-left: 1em;
+		font-size: 10px;
+	}
+	.trans{
+    height: 5em;
+    width: 5em;
+    background-color: rgba(0, 0, 0, 0.7);
+    -webkit-transition:opacity 0.3s;
+    opacity: 0;
+    border-radius: 50%;
+    margin-left: 26em;
+    margin-top: -3em;
+	}
+	#foto1{
+    margin-top: 2em;
+	}
+	.proyect1{
+    padding-top: 4em;
+    font-size: 7px;
+	}
+	.purple{
+		margin-top: 3em;
+		margin-left: 14em;
+	}
+	.progress{
+		margin-top: -3em;
+	}
+}
+/*low-end windows phone*/
+@media only screen and (max-width: 480px) {
+	.mxP{
+    padding: 4em 0 0 1em;
+    margin-right: -1em;
+	}
+	.second{
+		font-size: 38px;
+		color: #993366;
+	}
+	.web{
+		color: white;
+		font-size: 16px;
+		margin-right: -2.5em;
+	}
+	.iconit{
+		font-size: 40px!important;
+	}
+	.icon{
+    width: 1em;
+    margin-right: 2em;
+    }
+    .icontx{
+    	font-size: 10px;
+    }
+    .jumbotron{
+		margin-top: -0.7em;
+		height: 12em;
+		width: 104%;
+		padding: 0 2em 0 3em;
+	}
+	.projectsC{
+    height: 7.5em;
+    width: 7.5em;
+    margin-top: 2.5em;
+    margin-left: 11em;
+	}
+	.skill{
+    	margin-left: 3em;
+    	height: 2em;
+    	margin-top: 0.5em;
+	}
+	.footer{
+		margin-left: 1em;
+		font-size: 8px;
+	}
+	.trans{
+    height: 5em;
+    width: 5em;
+    background-color: rgba(0, 0, 0, 0.7);
+    -webkit-transition:opacity 0.3s;
+    opacity: 0;
+    border-radius: 50%;
+    margin-left: 20em;
+    margin-top: -5.6em;
+	}
+	#foto1{
+    margin-top: 2em;
+	}
+	.proyect1{
+    padding-top: 4em;
+    font-size: 7px;
+	}
+	.purple{
+		margin-top: 3em;
+		margin-left: 8em;
+	}
+	.last{
+		width: 20%;
+	}
+	.lastT{
+		margin-top: -2em;
+	}
+}
+/*older phones*/
+@media only screen and (max-width: 320px) {
+	.mxP{
+    padding-top: 4.5em;
+	}
+	.second{
+		font-size: 24px;
+	}
+	.web{
+		color: #1a1a1a;
+		font-size: 10px;
+		margin-right: -5em;
+	}
+	.prin{
+		margin-top: 1em;
+	}
+	.interest{
+		font-size: 20px;
+	}
+	.icon{
+    width: 1em;
+    margin-right: 4em;
+    }
+    .fondoUno{
+    background-color: black;
+    height: 960px;
+    width: auto;
+	}
+	.jumbotron{
+		margin-top: -0.7em;
+		height: 21em;
+		width: 103%;
+		padding: 0 2em 0 3em;
+	}
+	.projectsC{
+    height: 7.5em;
+    width: 7.5em;
+    margin-top: 2.5em;
+    margin-left: 5.6em;
+	}
+	.skill{
+    	margin-left: 1em;
+    	width: 90%;
+	}
+	.barbut{
+		font-size: 9px;
+	}
+	.footer{
+		margin-left: 1em;
+		font-size: 8px;
+	}
+}
